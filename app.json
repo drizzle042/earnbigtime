@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Paymax",
+    "slug": "Paymax",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6c63ff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.Paymax.earnbigtime",
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4482265644815482~5338392013"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}
